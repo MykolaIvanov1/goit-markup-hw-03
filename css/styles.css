@@ -240,6 +240,10 @@ p {
   background-color: var(--background-color-section);
 }
 
+.title-team {
+  margin-bottom: 50px;
+}
+
 .team-list {
   display: inline-flex;
 }
