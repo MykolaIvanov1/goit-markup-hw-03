@@ -57,17 +57,17 @@
     <main>
       <!--герой-->
       <section class="hero">
-        <h1 class="title-hero">
-          Ефективні рішення для <br />
+        <div class="container">
+          <h1 class="title-hero">
+          Ефективні рішення для
           вашого бізнесу
         </h1>
         <button class="button" type="button">Замовити послугу</button>
-      </section>
+      </section></div>
       <!--priority company-->
-      
-        <section class="section">
+              <section class="section-priority">
           <div class="container">
-          <h2 class="headline">Пріоритети</h2>
+          <h2 class="visually-hidden">Пріоритети</h2>
           <ul class="list-priority lists">
             <li class="item-priority">
               <h3 class="title-priority">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -99,8 +99,7 @@
           </ul>
         </div>
         </section>
-            <!--work-->
-      
+      <!--work-->
         <section class="section">
           <div class="container">
           <h2 class="title-work">Чим ми займаємося</h2>
@@ -140,8 +139,11 @@
                 alt="співробітник студії"
                 width="270"
               />
-              <h3 class="workers-title">Ігор Дем'яненко</h3>
-              <p class="text-job">Product Designer</p>
+              <div class="container-text">
+                <h3 class="workers-title">Ігор Дем'яненко</h3>
+                <p class="text-job">Product Designer</p>
+              </div>
+              
             </li>
             <li class="item-team-list">
               <img
@@ -149,8 +151,10 @@
                 alt="співробітниця студії"
                 width="270"
               />
-              <h3 class="workers-title">Ольга Рєпіна</h3>
-              <p class="text-job">Frontend Developer</p>
+              <div class="container-text">
+                <h3 class="workers-title">Ольга Рєпіна</h3>
+                <p class="text-job">Frontend Developer</p> 
+              </div>
             </li>
             <li class="item-team-list">
               <img
@@ -158,8 +162,11 @@
                 alt="співробітник студії"
                 width="270"
               />
-              <h3 class="workers-title">Микола Тарасов</h3>
-              <p class="text-job">Marketing</p>
+              <div class="container-text">
+                <h3 class="workers-title">Микола Тарасов</h3>
+                <p class="text-job">Marketing</p>
+              </div>
+              
             </li>
             <li class="item-team-list">
               <img
@@ -167,8 +174,10 @@
                 alt="співробітник студії"
                 width="270"
               />
-              <h3 class="workers-title">Михайло Єрмаков</h3>
-              <p class="text-job">UI Designer</p>
+              <div class="container-text">
+                <h3 class="workers-title">Михайло Єрмаков</h3>
+                <p class="text-job">UI Designer</p>
+              </div>
             </li>
           </ul>
          </div> 
@@ -189,7 +198,7 @@
           >м. Київ, пр-т Лесі Українки, 26</a
         >
         <ul class="list-footer lists">
-          <li>
+          <li class="item-mail-footer">
             <a
               class="link mail-footer"
               href="mailto:info@devstudio.com"
