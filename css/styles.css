@@ -295,8 +295,8 @@ img {
 /* footer */
 .footer {
   background-color: #2f303a;
-  padding-top: 54px;
-  padding-bottom: 66px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .logo.link {
@@ -354,6 +354,10 @@ img {
   margin-right: 8px;
 }
 
+.item-btn:last-child {
+  margin-right: 0;
+}
+
 .btn {
   font-family: inherit;
   background-color: var(--background-color-section);
@@ -400,4 +404,5 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-top: 4px;
 }
